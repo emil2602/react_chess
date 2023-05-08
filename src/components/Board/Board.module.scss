@@ -1,0 +1,17 @@
+.board {
+  width: calc(64px * 8);
+  height: calc(64px * 8);
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 103px 0px rgba(30,23,23,0.75);
+  margin-top: 10px;
+}
+
+.boardWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.lostFigures {
+  margin: 0 20px;
+}

@@ -1,0 +1,22 @@
+.lostFiguresWrapper {
+  height: calc(50vh - 60px);
+
+  :global {
+    h3 {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.figure {
+  display: flex;
+  align-items: center;
+  max-height: 30px;
+
+  :global {
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.cell {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:global {
+    &.black {
+      background-color: deepskyblue;
+    }
+
+    &.white {
+      background-color: #f9f4ec;
+    }
+
+    &.selected {
+      background-color: rgb(111, 37, 37);
+    }
+  }
+
+  :global {
+    img {
+      position: relative;
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+
+.avalible {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #00e764;
+}
+
+
+
